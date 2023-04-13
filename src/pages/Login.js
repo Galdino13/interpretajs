@@ -13,7 +13,7 @@ export default function Register(){
         const password = event.target.elements.password.value;
       
         try {
-          const response = await axios.post('http://seu-servidor-flask.com/api/login', { email, password });
+          const response = await axios.post('https://flaskedson.matheusgamarra.repl.co', { email, password });
           if (response.data.authenticated) {
             setIsLoggedIn(true);
           } else {

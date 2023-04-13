@@ -37,6 +37,15 @@ export default class PersonAdd extends React.Component {
     return (
       <div>
         <form onSubmit={this.handleSubmit}>
+          <label>
+            userID:
+            <input
+              type="number"
+              name="userID"
+              onChange={this.handleChange}
+              value={this.state.userId}
+            />
+          </label>
           <label htmlFor="name">
             Nome:
             <input
