@@ -1,0 +1,13 @@
+footer{
+  position:fixed;
+  left:0;
+  bottom:0;
+  width:100%;
+  background-color:white;
+  color:#FD7A39;
+  font-family:'Poppins';
+}
+footer p{
+  margin-top:5px;
+  text-align:center;
+}
